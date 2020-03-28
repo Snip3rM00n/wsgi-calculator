@@ -130,7 +130,7 @@ def index(*args):
                              "Simply navigate to the operation you want to "
                              "perform and the numbers you want to calculate "
                              "against.  Try one of the examples below."))
-    example_text = tagged("h3", "Examples:")
+    example_text = tagged("h3", "Usage Examples:")
     table = []
     examples = {"add": f"{args[0]}/add/4/5",
                 "subtract": f"{args[0]}/subtract/-7/10",
